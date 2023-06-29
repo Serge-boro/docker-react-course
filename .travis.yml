@@ -1,4 +1,6 @@
 sudo: required
+language: generic
+
 services:
   - docker
 
@@ -6,5 +8,4 @@ before_install:
   - docker build -t serhii/docker-react-course -f Dockerfile.dev .
 
 script:
-  - docker run serhii/docker-react-course npm run test -- --coverage
-
+  - docker run -e CI=true serhii/docker-react-course npm run test
