@@ -15,7 +15,7 @@ deploy:
   region: 'us-east-2'
   app: 'docker-react-course'
   env: 'Docker-react-course-env'
-  bucket_name: 'docker-react-course'
+  bucket_name: 'elasticbeanstalk-us-east-2-911816544929'
   bucket_path: 'docker-react-course'
   on:
     branch: master
