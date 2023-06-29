@@ -7,3 +7,4 @@ before_install:
 
 script:
   - docker run serhii/docker-react-course npm run test -- --coverage
+
