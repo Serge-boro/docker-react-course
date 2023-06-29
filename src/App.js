@@ -9,11 +9,11 @@ function App() {
         <p>I deployed react app on AWS!!!</p>
         <a
           className='App-link'
-          href='https://reactjs.org'
+          href='https://serhiiborodin-portfolio.netlify.app/'
           target='_blank'
           rel='noopener noreferrer'
         >
-          Learn React
+          Learning by course
         </a>
       </header>
     </div>
