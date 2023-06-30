@@ -13,7 +13,7 @@ function App() {
           target='_blank'
           rel='noopener noreferrer'
         >
-          Learning by course!
+          Learning by course
         </a>
       </header>
     </div>
